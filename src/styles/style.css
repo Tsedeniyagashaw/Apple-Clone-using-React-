@@ -154,7 +154,7 @@ cursor: pointer;
 /* ***********For Larger Screen*********** */
 @media (min-width: 992px) {
   .video-wrapper {
-      display: block; /* Show all videos on large screens */
+      display: block; 
   }
   .mybtn{
     font-size: 17px;
