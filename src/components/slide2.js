@@ -9,7 +9,7 @@ function Slide2({ isPlaying }) {
     dots: false,
     infinite: true,
     speed: 4000,
-    slidesToShow: 4, // Default for larger screens
+    slidesToShow: 4, 
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -17,15 +17,15 @@ function Slide2({ isPlaying }) {
     isPlaying,
     responsive: [
       {
-        breakpoint: 768, // When screen size is below 768px
+        breakpoint: 768, 
         settings: {
-          slidesToShow: 3, // Show 3 slides
+          slidesToShow: 3, 
         },
       },
       {
-        breakpoint: 480, // Optional: Further customization for very small screens
+        breakpoint: 480, 
         settings: {
-          slidesToShow: 3, // Show 1 slide
+          slidesToShow: 3, 
         },
       },
     ],
