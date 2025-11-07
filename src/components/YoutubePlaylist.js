@@ -5,7 +5,7 @@ const YouTubePlaylist = () => {
     const [videos, setVideos] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [loading, setLoading] = useState(true); 
-    const apiKey = 'AIzaSyA9lHEeF_yiw1cnxO6zi8WIWsA4pTbcb00';
+    const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
     const playlistId = 'UUE_M8A5yxnLfW0KghEeajjw';
     const url = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=12&playlistId=${playlistId}&key=${apiKey}`;
 
